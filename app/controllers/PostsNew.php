@@ -1,5 +1,7 @@
 <?
 
+namespace app\controllers;
+
 class PostsNew
 {
     public function __construct()

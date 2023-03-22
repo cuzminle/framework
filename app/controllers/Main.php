@@ -1,5 +1,7 @@
 <?
 
+namespace app\controllers;
+
 class Main
 {
     public function __construct()
@@ -7,7 +9,7 @@ class Main
         echo 'Main';
     }
 
-    public static function lox()
+    public static function loxAction()
     {
         echo 'lox';
     }

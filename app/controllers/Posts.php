@@ -1,10 +1,13 @@
 <?
 
-class Posts
+namespace app\controllers;
+
+class Posts extends \vendor\core\base\controller
 {
-    public function __construct()
+
+    public function testAction()
     {
-        echo 'Posts';
+        debug($this->route);
     }
 }
 ?>

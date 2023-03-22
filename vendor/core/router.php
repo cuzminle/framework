@@ -1,5 +1,7 @@
 <?php
 
+namespace vendor\core;
+
 class Router
 {
     
@@ -46,6 +48,7 @@ class Router
                     $route['action'] = 'index';
                 }
                 self::$route = $route;
+                $route['controller'] = self::upperCamelCase(self::$route['controller']);
                 debug($route);
                 return true;
             }
@@ -61,10 +64,10 @@ class Router
     {
         if(self::matchRoute($url))
         {
-            $controller = self::upperCamelCase(self::$route['controller']);
+            $controller = 'app\controllers\\'.self::$route['controller'];
             if(class_exists($controller))
             {
-                $cObj = new $controller;
+                $cObj = new $controller(self::$route);
                 $action = self::lowerCamelCase(self::$route['action']. 'Action');
                 if(method_exists($cObj, $action))
                 {
@@ -72,7 +75,7 @@ class Router
                 }
                 else 
                 {
-                    echo "Контроллер <b>$controller::$action</b> не найден";
+                    echo "controller <b>$controller::$action</b> not found";
                 }
             }
             else
