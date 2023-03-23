@@ -2,12 +2,17 @@
 
 namespace app\controllers;
 
-class Main extends \vendor\core\base\controller
+class Main extends App
 {
 
     public static function testAction()
     {
         echo 'test';
+    }
+
+    public static function indexAction()
+    {
+        echo 'index';
     }
 }
 ?>
