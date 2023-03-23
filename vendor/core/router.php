@@ -32,6 +32,7 @@ class Router
      */
     public static function matchRoute($url)
     {
+        $url = self::removeQueryString($url);
         foreach(self::$routes as $pattern => $route )
         {
             if(preg_match("#$pattern#i", $url, $matches))
@@ -47,9 +48,8 @@ class Router
                 {
                     $route['action'] = 'index';
                 }
+                $route['controller'] = self::upperCamelCase($route['controller']);
                 self::$route = $route;
-                $route['controller'] = self::upperCamelCase(self::$route['controller']);
-                debug($route);
                 return true;
             }
         }
@@ -72,15 +72,16 @@ class Router
                 if(method_exists($cObj, $action))
                 {
                     $cObj->$action();
+                    $cObj->getView();
                 }
                 else 
                 {
-                    echo "controller <b>$controller::$action</b> not found";
+                    echo "method <b>$controller::$action</b> not found";
                 }
             }
             else
             {
-                echo 'lox';
+                echo "controller <b>$controller</b> not found";
             }
         }
         else
@@ -98,5 +99,22 @@ class Router
     protected static function lowerCamelCase($name)
     {
         return lcfirst(self::upperCamelCase($name));
+    }
+
+    protected static function removeQueryString($url)
+    {
+        if($url)
+        {
+            $params = explode('?', $url, 2);
+            debug($params);
+            if(false === strpos($params[0], '='))
+            {
+                return rtrim($params[0], '/');
+            }
+            else return '';
+        }
+
+        debug($url);
+        return $url;
     }
 }

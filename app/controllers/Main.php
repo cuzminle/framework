@@ -2,16 +2,12 @@
 
 namespace app\controllers;
 
-class Main
+class Main extends \vendor\core\base\controller
 {
-    public function __construct()
-    {
-        echo 'Main';
-    }
 
-    public static function loxAction()
+    public static function testAction()
     {
-        echo 'lox';
+        echo 'test';
     }
 }
 ?>
