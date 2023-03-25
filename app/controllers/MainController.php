@@ -17,9 +17,10 @@ class MainController extends AppController
     {
         $model = new MainModel;
         $posts = $model->findAll();
-        debug($posts);
-
-
+        $post = $model->findOne(1);
+        
+        $data = $model->findBySql("SELECT * FROM post ORDER BY id");
+        debug($data);
         $this->set(compact('posts'));
         
     }

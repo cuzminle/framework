@@ -1,6 +1,3 @@
-
-    
-
     <div class="container">
         <? if(!empty($posts)): ?>
         <? foreach($posts as $post): ?>
