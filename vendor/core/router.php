@@ -64,7 +64,7 @@ class Router
     {
         if(self::matchRoute($url))
         {
-            $controller = 'app\controllers\\'.self::$route['controller'];
+            $controller = 'app\controllers\\'.self::$route['controller'] . 'Controller';
             if(class_exists($controller))
             {
                 $cObj = new $controller(self::$route);
@@ -106,7 +106,7 @@ class Router
         if($url)
         {
             $params = explode('?', $url, 2);
-            debug($params);
+            //debug($params);
             if(false === strpos($params[0], '='))
             {
                 return rtrim($params[0], '/');
@@ -114,7 +114,6 @@ class Router
             else return '';
         }
 
-        debug($url);
         return $url;
     }
 }
