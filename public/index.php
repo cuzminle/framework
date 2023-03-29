@@ -8,8 +8,8 @@ define('CORE', dirname(__DIR__). '/vendor/core');
 define('ROOT', dirname(__DIR__));
 define('APP', dirname(__DIR__). '/app');
 define('LAYOUT', 'default');
+define('CACHE', dirname(__DIR__). '/tmp/cache');
 
-require '../vendor/core/router.php';
 require '../vendor/libs/functions.php';
 
 spl_autoload_register(function($class) {
@@ -21,16 +21,18 @@ spl_autoload_register(function($class) {
     }
 });
 
-Router::add('page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)', [
+new \vendor\core\App;
+
+Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', [
     'controller' => 'Page']);
 
-Router::add('page/(?P<alias>[a-z-]+)', [
+Router::add('^page/(?P<alias>[a-z-]+)$', [
     'controller' => 'Page',
     'action' => 'view']);
 
 Router::add('^$', [
     'controller' => 'Main',
-    'action' => 'test']);
+    'action' => 'index']);
 
 Router::add('(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?');
 

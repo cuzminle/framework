@@ -2,27 +2,33 @@
 
 namespace app\controllers;
 use app\models\MainModel;
-
+use vendor\core\App;
 
 class MainController extends AppController
 {
-    public $layout = 'default';
+    public $layout = false;
 
     public function testAction()
     {
-        echo 'test';
+        //include '../public/test/index.php';
     }
 
     public function indexAction()
     {
+        //App::$app->getList();
         $model = new MainModel;
-        $posts = $model->findAll();
+        $posts = App::$app->cache->get('posts');
+        if(!$posts)
+        {
+            $posts = \R::findAll('posts');
+            App::$app->cache->set('posts', $posts);
+        }
         $post = $model->findOne(1);
-        
         $data = $model->findBySql("SELECT * FROM post ORDER BY id");
-        debug($data);
         $this->set(compact('posts'));
         
     }
+
+    
 }
 ?>

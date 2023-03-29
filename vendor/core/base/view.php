@@ -31,9 +31,6 @@ class View
         else $this->layout = $layout ?: LAYOUT;
         $this->route = $route;
         $this->view = $view;
-
-        var_dump($this->layout);
-        var_dump($this->view);
     }
 
     public function render($vars)
