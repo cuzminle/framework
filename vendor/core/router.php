@@ -2,6 +2,8 @@
 
 namespace vendor\core;
 
+use Exception;
+
 class Router
 {
     
@@ -76,18 +78,17 @@ class Router
                 }
                 else 
                 {
-                    echo "method <b>$controller::$action</b> not found";
+                    throw new Exception("Метод <b>$controller::$action</b> не найден", 404);
                 }
             }
             else
             {
-                echo "controller <b>$controller</b> not found";
+                throw new Exception("Контроллер <b>$controller</b> не найден", 404);
             }
         }
         else
         {
-            http_response_code(404);
-            include '404.html';
+            throw new Exception("Страница не найдена", 404);
         }
     }
 

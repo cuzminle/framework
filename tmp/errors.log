@@ -1,0 +1,147 @@
+[2023-04-02 13:18:21] Error text: Call to undefined function test() | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 64
+=================================================================
+[2023-04-02 13:18:21] Error text: include(errorsViews/dev.php): Failed to open stream: No such file or directory | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 29
+=================================================================
+[2023-04-02 13:19:31] Error text: Call to undefined function test() | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 64
+=================================================================
+[2023-04-02 13:48:26] Error text: syntax error, unexpected variable "$posts" | File: C:\OSPanel\domains\framework\app\controllers\MainController.php | 
+            Line: 20
+=================================================================
+[2023-04-02 13:48:26] Error text: include(C:\OSPanel\domains\framework\publicpublic/errors/404.html): Failed to open stream: No such file or directory | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 33
+=================================================================
+[2023-04-02 13:48:26] Error text: ob_end_flush(): Failed to delete and flush buffer. No buffer to delete or flush | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 52
+=================================================================
+[2023-04-02 13:48:37] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 7
+=================================================================
+[2023-04-02 13:48:37] Error text: include(C:\OSPanel\domains\framework\publicpublic/errors/404.html): Failed to open stream: No such file or directory | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 33
+=================================================================
+[2023-04-02 13:49:22] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 7
+=================================================================
+[2023-04-02 13:49:22] Error text: include(C:\OSPanel\domains\framework\public/public/errors/404.html): Failed to open stream: No such file or directory | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 33
+=================================================================
+[2023-04-02 13:49:40] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 7
+=================================================================
+[2023-04-02 13:49:58] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 7
+=================================================================
+[2023-04-02 13:50:14] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 7
+=================================================================
+[2023-04-02 13:50:34] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\errorHandler.php | 
+            Line: 7
+=================================================================
+[2023-04-02 13:51:45] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\ErrorHandler.php | 
+            Line: 7
+=================================================================
+[2023-04-02 13:52:33] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\ErrorHandler.php | 
+            Line: 7
+=================================================================
+[2023-04-02 13:53:12] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\ErrorHandler.php | 
+            Line: 7
+=================================================================
+[2023-04-02 13:53:56] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\ErrorHandler.php | 
+            Line: 7
+=================================================================
+[2023-04-02 13:54:35] Error text: syntax error, unexpected variable "$posts" | File: C:\OSPanel\domains\framework\app\controllers\MainController.php | 
+            Line: 20
+=================================================================
+[2023-04-02 13:54:50] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\ErrorHandler.php | 
+            Line: 7
+=================================================================
+[2023-04-02 13:58:00] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\ErrorHandler.php | 
+            Line: 5
+=================================================================
+[2023-04-02 14:02:49] Error text: include(../vendor/core/errorHandler.php): Failed to open stream: No such file or directory | File: C:\OSPanel\domains\framework\app\controllers\MainController.php | 
+            Line: 13
+=================================================================
+[2023-04-02 14:03:39] Error text: Cannot declare class vendor\core\ErrorHandler, because the name is already in use | File: C:\OSPanel\domains\framework\vendor\core\ErrorHandler.php | 
+            Line: 5
+=================================================================
+[2023-04-02 14:06:57] Error text: include(../vendor/core/ErrorHandler.php): Failed to open stream: No such file or directory | File: C:\OSPanel\domains\framework\app\controllers\MainController.php | 
+            Line: 13
+=================================================================
+[2023-04-02 14:07:36] Error text: syntax error, unexpected token "if" | File: C:\OSPanel\domains\framework\app\controllers\MainController.php | 
+            Line: 21
+=================================================================
+[2023-04-02 14:12:17] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:12:17] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:12:23] Error text: Контроллер <b>app\controllers\DController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:13:06] Error text: Контроллер <b>app\controllers\DController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:10] Error text: Контроллер <b>app\controllers\FaviconController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:17] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:25] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:28] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:29] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:29] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:29] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:29] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:30] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:42] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:43] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:43] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:43] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:15:43] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:16:06] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:20:56] Error text: Контроллер <b>app\controllers\AsdasdController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 14:21:00] Error text: Контроллер <b>app\controllers\FaviconController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 15:16:09] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 15:16:09] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 15:16:10] Error text: Контроллер <b>app\controllers\FaviconController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
