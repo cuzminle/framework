@@ -29,7 +29,7 @@ namespace vendor\core;
             if($response == 404)
             {
                 include WWW . '/errors/404.html';
-                die;
+                //die;
             }
             if(DEBUG)
                 include WWW . '/errors/dev.php';

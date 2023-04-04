@@ -145,3 +145,114 @@
 [2023-04-02 15:16:10] Error text: Контроллер <b>app\controllers\FaviconController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
             Line: 86
 =================================================================
+[2023-04-02 17:49:07] Error text: Контроллер <b>app\controllers\FaviconController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-02 18:47:13] Error text: Контроллер <b>app\controllers\FaviconController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 15:57:14] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 15:57:15] Error text: Контроллер <b>app\controllers\FaviconController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 16:02:51] Error text: Контроллер <b>app\controllers\AdminController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 16:03:25] Error text: Контроллер <b>app\controllers\AdminController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 16:03:46] Error text: Контроллер <b>app\controllers\AdminController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 16:04:12] Error text: Контроллер <b>app\controllers\AdminController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 16:05:33] Error text: Контроллер <b>app\controllers\AdminController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 16:08:51] Error text: Контроллер <b>app\controllers\AdminController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 16:56:39] Error text: Контроллер <b>app\controllers\AdminController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 87
+=================================================================
+[2023-04-03 16:57:12] Error text: Контроллер <b>app\controllers\AdminController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 16:59:08] Error text: Контроллер <b>app\controllers\AdminController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 16:59:28] Error text: Контроллер <b>app\controllers\TestController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 17:00:05] Error text: Контроллер <b>app\controllers\TestController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 86
+=================================================================
+[2023-04-03 17:07:44] Error text: Контроллер <b>app\controllers\TestController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 89
+=================================================================
+[2023-04-03 17:08:18] Error text: Контроллер <b>app\controllers\TestController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 89
+=================================================================
+[2023-04-03 17:10:45] Error text: Контроллер <b>app\controllers\TestController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 91
+=================================================================
+[2023-04-03 17:11:12] Error text: Контроллер <b>app\controllers\TestController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 91
+=================================================================
+[2023-04-03 17:12:53] Error text: Контроллер <b>app\controllers\admin\TestController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 91
+=================================================================
+[2023-04-03 17:13:03] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 91
+=================================================================
+[2023-04-03 17:13:03] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 91
+=================================================================
+[2023-04-03 17:25:05] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:25:05] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:26:25] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:26:25] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:29:04] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:29:12] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:31:13] Error text: <p>view not found: C:\OSPanel\domains\framework/app/views/admin\Test/index.php</p> | File: C:\OSPanel\domains\framework\vendor\core\base\View.php | 
+            Line: 45
+=================================================================
+[2023-04-03 17:34:22] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:34:22] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:34:43] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:34:44] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:52:39] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:52:40] Error text: Контроллер <b>app\controllers\FaviconController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:52:46] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-03 17:52:47] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================

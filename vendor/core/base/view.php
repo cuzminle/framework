@@ -36,13 +36,13 @@ class View
     public function render($vars)
     {
         if(is_array($vars)) extract($vars);
-        $file_view = APP . "/views/{$this->route['controller']}/{$this->view}.php";
+        $file_view = APP . "/views/{$this->route['prefix']}{$this->route['controller']}/{$this->view}.php";
         ob_start();
         if(is_file($file_view))
         {
             require $file_view;
         }
-        else echo "<p>view not found: $file_view</p>";
+        else throw new \Exception("<p>view not found: $file_view</p>", 404);
         $content = ob_get_clean();
 
         if(false !== $this->layout)
@@ -50,7 +50,7 @@ class View
             $file_layout = APP . "/views/layouts/{$this->layout}.php";
             if(is_file($file_layout))
                 require $file_layout;
-            else echo "<p>not found layout: $file_layout</p>";
+            else throw new \Exception("<p>not found layout: $file_layout</p>", 404);
         }
 
         
