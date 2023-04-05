@@ -13,6 +13,7 @@ define('CACHE', dirname(__DIR__). '/tmp/cache');
 define('LIBS', dirname(__DIR__) . '/vendor/libs');
 
 require '../vendor/libs/functions.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 spl_autoload_register(function($class) {
     $file = ROOT . '/' . str_replace('\\', '/', $class). '.php';

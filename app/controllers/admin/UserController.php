@@ -8,7 +8,6 @@ class UserController extends AppController
 {
     public function indexAction()
     {
-        //View::setMeta('Админка');
         $test = 'тест';
         $data = ['test', '2'];
         $this->set([
