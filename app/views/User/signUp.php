@@ -10,11 +10,13 @@
 <form method="post" action="/user/signUp" class="w-25 p-3 align-center">
   <div class="form-group">
     <label for="exampleInputPassword1">Login</label>
-    <input type="text" name="login" class="form-control" id="exampleInputPassword1" placeholder="Login">
+    <input type="text" name="login" class="form-control" id="exampleInputPassword1" placeholder="Login" 
+    value="<?= isset($_SESSION['form_data']['login']) ?htmlChar($_SESSION['form_data']['login']) : '';?>">
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"
+    value="<?= isset($_SESSION['form_data']['email']) ?htmlChar($_SESSION['form_data']['email']) : '';?>">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group">
@@ -23,7 +25,8 @@
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Name</label>
-    <input type="text" name="name" class="form-control" id="exampleInputPassword1" placeholder="Name">
+    <input type="text" name="name" class="form-control" id="exampleInputPassword1" placeholder="Name"
+    value="<?= isset($_SESSION['form_data']['name']) ?htmlChar($_SESSION['form_data']['name']) : '';?>">
   </div>
   <div class="form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -31,5 +34,17 @@
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+<? if(isset($_SESSION['form_data'])) unset($_SESSION['form_data']);?>
+<? if(isset($_SESSION['error'])):?>
+      <div class="alert alert-danger">
+        <?=$_SESSION['error']; unset($_SESSION['error'])?>
+      </div>
+    <?endif;?>
+
+    <? if(isset($_SESSION['success'])):?>
+      <div class="alert alert-success">
+        <?=$_SESSION['success']; unset($_SESSION['success'])?>
+      </div>
+    <?endif;?>
 </body>
 </html>

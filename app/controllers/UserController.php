@@ -11,10 +11,24 @@ class UserController extends AppController
             $data = $_POST;
             $user = new UserModel();
             $user->load($data);
-            if($user->validate($data))
+            if($user->validate($data) && $user->checkUnique())
                 echo 'OK';
-            else echo 'NO';
-            debug($data);
+            else 
+            {
+                $user->getErrors();
+                $_SESSION['form_data'] = $data;
+                redirect();
+            }
+            $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
+            if($user->save('users'))
+            {
+                $_SESSION['success'] = 'Success';
+            }
+            else 
+            {
+                $_SESSION['error'] = 'Error';
+            }
+            redirect();
             die;
         }
     }

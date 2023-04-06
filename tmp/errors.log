@@ -433,3 +433,219 @@
 [2023-04-05 17:37:05] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
             Line: 90
 =================================================================
+[2023-04-05 18:57:17] Error text: Контроллер <b>app\controllers\FaviconController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:05:41] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:05:43] Error text: Контроллер <b>app\controllers\FaviconController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:17:04] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:17:05] Error text: Контроллер <b>app\controllers\FaviconController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:29:28] Error text: Метод <b>app\controllers\UserController::indexAction</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 85
+=================================================================
+[2023-04-06 16:37:28] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:47:45] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:47:46] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:47:57] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:47:58] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:47:59] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:48:17] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:48:17] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:50:35] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:50:36] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:50:47] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:50:48] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:51:26] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:51:26] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:52:05] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:52:06] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:52:07] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:52:44] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:52:45] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:52:52] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:52:53] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:52:54] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:55:10] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:55:10] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:55:12] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:58:15] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:58:16] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:58:50] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:58:50] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 16:58:52] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:01:47] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:01:48] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:19:45] Error text: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'user2' for key 'users.login' | File: C:\OSPanel\domains\framework\vendor\libs\rb-mysql.php | 
+            Line: 838
+=================================================================
+[2023-04-06 17:20:37] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:20:38] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:21:14] Error text: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'user2' for key 'users.login' | File: C:\OSPanel\domains\framework\vendor\libs\rb-mysql.php | 
+            Line: 838
+=================================================================
+[2023-04-06 17:22:14] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:22:15] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:22:16] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:22:29] Error text: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'user2' for key 'users.login' | File: C:\OSPanel\domains\framework\vendor\libs\rb-mysql.php | 
+            Line: 838
+=================================================================
+[2023-04-06 17:23:02] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:23:02] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:24:01] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:24:01] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:24:13] Error text: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''asd2@sadaw.com' LIMIT 1  -- keep-cache' at line 1 | File: C:\OSPanel\domains\framework\vendor\libs\rb-mysql.php | 
+            Line: 838
+=================================================================
+[2023-04-06 17:24:51] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:24:52] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:24:53] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:25:01] Error text: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''asd@asdsd.com' LIMIT 1  -- keep-cache' at line 1 | File: C:\OSPanel\domains\framework\vendor\libs\rb-mysql.php | 
+            Line: 838
+=================================================================
+[2023-04-06 17:27:39] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:27:40] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:27:46] Error text: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''asd@asdsd.com' LIMIT 1  -- keep-cache' at line 1 | File: C:\OSPanel\domains\framework\vendor\libs\rb-mysql.php | 
+            Line: 838
+=================================================================
+[2023-04-06 17:46:25] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:46:26] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:46:43] Error text: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'user2' for key 'users.login' | File: C:\OSPanel\domains\framework\vendor\libs\rb-mysql.php | 
+            Line: 838
+=================================================================
+[2023-04-06 17:47:09] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:47:09] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:47:09] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:47:38] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:47:38] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:47:39] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:48:11] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:48:12] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:48:13] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:48:20] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================
+[2023-04-06 17:48:21] Error text: Контроллер <b>app\controllers\BootstrapController</b> не найден | File: C:\OSPanel\domains\framework\vendor\core\router.php | 
+            Line: 90
+=================================================================

@@ -29,6 +29,21 @@ class UserModel extends Model
         ]   
     ];
 
+    public function checkUnique()
+    {
+        $user = \R::findOne('users', 'login = ? OR email = ? LIMIT 1',
+        [$this->attributes['login'], $this->attributes['email']]);
+        if($user)
+        {
+            if($user->login == $this->attributes['login'])
+                $this->errors['unique'][] = 'This login alraedy taken';
+            if($user->login == $this->attributes['email'])
+                $this->errors['unique'][] = 'This email alraedy taken';
+            return false;
+        }
+        else return true;
+    }
+
 }
 
 ?>
