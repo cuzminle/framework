@@ -34,17 +34,6 @@
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-<? if(isset($_SESSION['form_data'])) unset($_SESSION['form_data']);?>
-<? if(isset($_SESSION['error'])):?>
-      <div class="alert alert-danger">
-        <?=$_SESSION['error']; unset($_SESSION['error'])?>
-      </div>
-    <?endif;?>
 
-    <? if(isset($_SESSION['success'])):?>
-      <div class="alert alert-success">
-        <?=$_SESSION['success']; unset($_SESSION['success'])?>
-      </div>
-    <?endif;?>
 </body>
 </html>

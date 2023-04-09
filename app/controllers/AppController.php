@@ -5,7 +5,7 @@ use vendor\core\base\controller;
 
 class AppController extends controller
 {
-    public $layout = 'admin';
+    public $layout = '';
     
     public function __construct($route)
     {
