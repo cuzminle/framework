@@ -37,14 +37,16 @@ class Registry
             return self::$objects[$name];
     }
 
-    public function __set($name, $value)
+    public function __set($name, $object)
     {
-        
+        if(!isset(self::$objects[$name]))
+        {
+            self::$objects[$name] = new $object;
+        }
     }
 
 
 }
-
 
 
 ?>

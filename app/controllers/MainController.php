@@ -6,7 +6,7 @@ use vendor\core\App;
 
 class MainController extends AppController
 {
-    public $layout = '';
+    public $layout = false;
 
     public function testAction()
     {
@@ -15,15 +15,11 @@ class MainController extends AppController
 
     public function indexAction()
     {
-        //App::$app->getList();
         $model = new MainModel;
-        $posts = App::$app->cache->get('post');
-        if(!$posts)
-        {
-            $posts = \R::findAll('post');
-            App::$app->cache->set('posts', $posts);
-        }
-        $this->set(compact('posts'));
+        $model->test();
+        App::$app->getList();
+        App::$app->test2 = 'vendor\libs\test';
+        App::$app->getList();
     }
 
     
